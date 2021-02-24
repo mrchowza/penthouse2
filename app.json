@@ -1,0 +1,21 @@
+{
+   "name": "steamersa",
+   "description": "steamers",
+   "repository": "https://github.com/mrchowza/penthouse2",
+   "logo": "https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png",
+   "stack": "heroku-20",
+   "env": {
+      "mainToken": {
+         "description": "main",
+         "required": true
+      },
+      "guildTokens": {
+         "description": "alts(Split multiple with \",\")",
+         "required": true
+      },
+      "webhookUrl": {
+         "description": "webhook",
+         "required": false
+      }
+   }
+}
